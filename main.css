@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: black;
+}
+
+.main-container {
+    padding-top: 5px;
+    width: 400px;
+    height: 700px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+}
+
+.target-system {
+    display: flex;
+    flex-direction: column;
+}
+
+.plus-mines, .target-system-button {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-none {
+    display: none;
+}
